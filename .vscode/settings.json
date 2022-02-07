@@ -1,0 +1,4 @@
+{
+    "prettier.breakBeforeElse": true,
+    "prettier.printWidth": 90
+}
