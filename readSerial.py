@@ -24,7 +24,7 @@ import sys
 
 # Muuttujat
 JSON = '/var/www/html/data.json'
-# JSON = 'data.json' # Testasin työpöydällä
+
 
 def Tapahtuma(data):
 # Jos dataa on kaksi tavua, PROTOKOLLA
@@ -54,7 +54,7 @@ def Tapahtuma(data):
         if lippu==0:
             json_data[data] = json_data['REF'] # uusi tietue
     # -------------------------------------------------
-    #Tässä tais olla sisennysvirhe
+  
 # Kirjoitetaan JSON tiedostoon.
         try:
             with open(JSON, 'w') as outfile:
