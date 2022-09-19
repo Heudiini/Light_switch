@@ -1,6 +1,6 @@
 
 # Light switch control in browser 
-Check it here: https://www.instagram.com/p/CXcMrPUjWkE/ 
+
 This practise project learned me how to connect external device (in this case microbit) via serial and change something on web page. 
 
 
